@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E37BD52BCDE48000CB65A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD42BCDE48000CB65A8 /* AppDelegate.swift */; };
+		F4E37BD72BCDE48000CB65A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD62BCDE48000CB65A8 /* SceneDelegate.swift */; };
+		F4E37BD92BCDE48000CB65A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD82BCDE48000CB65A8 /* ViewController.swift */; };
+		F4E37BDC2BCDE48000CB65A8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F4E37BDB2BCDE48000CB65A8 /* Base */; };
+		F4E37BDE2BCDE48200CB65A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E37BDD2BCDE48200CB65A8 /* Assets.xcassets */; };
+		F4E37BE12BCDE48200CB65A8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F4E37BE02BCDE48200CB65A8 /* Base */; };
+		F4E37BEC2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BEB2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.swift */; };
+		F4E37BF62BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BF52BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.swift */; };
+		F4E37BF82BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BF72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E37BE82BCDE48200CB65A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E37BC92BCDE48000CB65A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E37BD02BCDE48000CB65A8;
+			remoteInfo = StarbucksLoginSizeClassesExample;
+		};
+		F4E37BF22BCDE48200CB65A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E37BC92BCDE48000CB65A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E37BD02BCDE48000CB65A8;
+			remoteInfo = StarbucksLoginSizeClassesExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4E37BD12BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLoginSizeClassesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E37BD42BCDE48000CB65A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E37BD62BCDE48000CB65A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4E37BD82BCDE48000CB65A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E37BDB2BCDE48000CB65A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E37BDD2BCDE48200CB65A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E37BE02BCDE48200CB65A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E37BE22BCDE48200CB65A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E37BE72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLoginSizeClassesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E37BEB2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLoginSizeClassesExampleTests.swift; sourceTree = "<group>"; };
+		F4E37BF12BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLoginSizeClassesExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E37BF52BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLoginSizeClassesExampleUITests.swift; sourceTree = "<group>"; };
+		F4E37BF72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E37BCE2BCDE48000CB65A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BE42BCDE48200CB65A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BEE2BCDE48200CB65A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E37BC82BCDE48000CB65A8 = {
+			isa = PBXGroup;
+			children = (
+				F4E37BD32BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */,
+				F4E37BEA2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests */,
+				F4E37BF42BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests */,
+				F4E37BD22BCDE48000CB65A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E37BD22BCDE48000CB65A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E37BD12BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample.app */,
+				F4E37BE72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.xctest */,
+				F4E37BF12BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E37BD32BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */ = {
+			isa = PBXGroup;
+			children = (
+				F4E37BD42BCDE48000CB65A8 /* AppDelegate.swift */,
+				F4E37BD62BCDE48000CB65A8 /* SceneDelegate.swift */,
+				F4E37BD82BCDE48000CB65A8 /* ViewController.swift */,
+				F4E37BDA2BCDE48000CB65A8 /* Main.storyboard */,
+				F4E37BDD2BCDE48200CB65A8 /* Assets.xcassets */,
+				F4E37BDF2BCDE48200CB65A8 /* LaunchScreen.storyboard */,
+				F4E37BE22BCDE48200CB65A8 /* Info.plist */,
+			);
+			path = StarbucksLoginSizeClassesExample;
+			sourceTree = "<group>";
+		};
+		F4E37BEA2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E37BEB2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.swift */,
+			);
+			path = StarbucksLoginSizeClassesExampleTests;
+			sourceTree = "<group>";
+		};
+		F4E37BF42BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E37BF52BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.swift */,
+				F4E37BF72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift */,
+			);
+			path = StarbucksLoginSizeClassesExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E37BD02BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E37BFB2BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExample" */;
+			buildPhases = (
+				F4E37BCD2BCDE48000CB65A8 /* Sources */,
+				F4E37BCE2BCDE48000CB65A8 /* Frameworks */,
+				F4E37BCF2BCDE48000CB65A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksLoginSizeClassesExample;
+			productName = StarbucksLoginSizeClassesExample;
+			productReference = F4E37BD12BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E37BE62BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E37BFE2BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExampleTests" */;
+			buildPhases = (
+				F4E37BE32BCDE48200CB65A8 /* Sources */,
+				F4E37BE42BCDE48200CB65A8 /* Frameworks */,
+				F4E37BE52BCDE48200CB65A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E37BE92BCDE48200CB65A8 /* PBXTargetDependency */,
+			);
+			name = StarbucksLoginSizeClassesExampleTests;
+			productName = StarbucksLoginSizeClassesExampleTests;
+			productReference = F4E37BE72BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E37BF02BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E37C012BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExampleUITests" */;
+			buildPhases = (
+				F4E37BED2BCDE48200CB65A8 /* Sources */,
+				F4E37BEE2BCDE48200CB65A8 /* Frameworks */,
+				F4E37BEF2BCDE48200CB65A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E37BF32BCDE48200CB65A8 /* PBXTargetDependency */,
+			);
+			name = StarbucksLoginSizeClassesExampleUITests;
+			productName = StarbucksLoginSizeClassesExampleUITests;
+			productReference = F4E37BF12BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E37BC92BCDE48000CB65A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F4E37BD02BCDE48000CB65A8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F4E37BE62BCDE48200CB65A8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F4E37BD02BCDE48000CB65A8;
+					};
+					F4E37BF02BCDE48200CB65A8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F4E37BD02BCDE48000CB65A8;
+					};
+				};
+			};
+			buildConfigurationList = F4E37BCC2BCDE48000CB65A8 /* Build configuration list for PBXProject "StarbucksLoginSizeClassesExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E37BC82BCDE48000CB65A8;
+			productRefGroup = F4E37BD22BCDE48000CB65A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E37BD02BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */,
+				F4E37BE62BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests */,
+				F4E37BF02BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E37BCF2BCDE48000CB65A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E37BDE2BCDE48200CB65A8 /* Assets.xcassets in Resources */,
+				F4E37BE12BCDE48200CB65A8 /* Base in Resources */,
+				F4E37BDC2BCDE48000CB65A8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BE52BCDE48200CB65A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BEF2BCDE48200CB65A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E37BCD2BCDE48000CB65A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E37BD92BCDE48000CB65A8 /* ViewController.swift in Sources */,
+				F4E37BD52BCDE48000CB65A8 /* AppDelegate.swift in Sources */,
+				F4E37BD72BCDE48000CB65A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BE32BCDE48200CB65A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E37BEC2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E37BED2BCDE48200CB65A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E37BF82BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITestsLaunchTests.swift in Sources */,
+				F4E37BF62BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E37BE92BCDE48200CB65A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E37BD02BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */;
+			targetProxy = F4E37BE82BCDE48200CB65A8 /* PBXContainerItemProxy */;
+		};
+		F4E37BF32BCDE48200CB65A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E37BD02BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */;
+			targetProxy = F4E37BF22BCDE48200CB65A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E37BDA2BCDE48000CB65A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E37BDB2BCDE48000CB65A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E37BDF2BCDE48200CB65A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E37BE02BCDE48200CB65A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E37BF92BCDE48200CB65A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E37BFA2BCDE48200CB65A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E37BFC2BCDE48200CB65A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksLoginSizeClassesExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E37BFD2BCDE48200CB65A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksLoginSizeClassesExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4E37BFF2BCDE48200CB65A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarbucksLoginSizeClassesExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarbucksLoginSizeClassesExample";
+			};
+			name = Debug;
+		};
+		F4E37C002BCDE48200CB65A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarbucksLoginSizeClassesExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarbucksLoginSizeClassesExample";
+			};
+			name = Release;
+		};
+		F4E37C022BCDE48200CB65A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarbucksLoginSizeClassesExample;
+			};
+			name = Debug;
+		};
+		F4E37C032BCDE48200CB65A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julio.StarbucksLoginSizeClassesExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarbucksLoginSizeClassesExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E37BCC2BCDE48000CB65A8 /* Build configuration list for PBXProject "StarbucksLoginSizeClassesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E37BF92BCDE48200CB65A8 /* Debug */,
+				F4E37BFA2BCDE48200CB65A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E37BFB2BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E37BFC2BCDE48200CB65A8 /* Debug */,
+				F4E37BFD2BCDE48200CB65A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E37BFE2BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E37BFF2BCDE48200CB65A8 /* Debug */,
+				F4E37C002BCDE48200CB65A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E37C012BCDE48200CB65A8 /* Build configuration list for PBXNativeTarget "StarbucksLoginSizeClassesExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E37C022BCDE48200CB65A8 /* Debug */,
+				F4E37C032BCDE48200CB65A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E37BC92BCDE48000CB65A8 /* Project object */;
+}
