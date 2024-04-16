@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		F47D832D2BCE3A4600C2F91E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F47D832F2BCF0CF400C2F91E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4D391182BCE100700FA9B26 /* ZillaSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Regular.ttf"; sourceTree = "<group>"; };
 		F4D3911A2BCE150D00FA9B26 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		F4D3911C2BCE159300FA9B26 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		F4E37BC82BCDE48000CB65A8 = {
 			isa = PBXGroup;
 			children = (
+				F47D832F2BCF0CF400C2F91E /* README.md */,
 				F4E37BD32BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample */,
 				F4E37BEA2BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleTests */,
 				F4E37BF42BCDE48200CB65A8 /* StarbucksLoginSizeClassesExampleUITests */,
