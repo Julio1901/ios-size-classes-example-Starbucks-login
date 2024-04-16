@@ -13,7 +13,7 @@ To run the project on your local environment, follow the instructions below:
 1. Clone this repository on your local machine:
 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/Julio1901/ios-size-classes-example-Starbucks-login.git
 
 2. Open the `ProjectName.xcodeproj` file in Xcode.
 
