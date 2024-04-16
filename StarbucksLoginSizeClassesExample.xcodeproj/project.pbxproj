@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47D832E2BCE3A4600C2F91E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47D832D2BCE3A4600C2F91E /* Poppins-Medium.ttf */; };
+		F4D391192BCE100700FA9B26 /* ZillaSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D391182BCE100700FA9B26 /* ZillaSlab-Regular.ttf */; };
+		F4D3911B2BCE150D00FA9B26 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D3911A2BCE150D00FA9B26 /* Poppins-Regular.ttf */; };
+		F4D3911D2BCE159300FA9B26 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D3911C2BCE159300FA9B26 /* Poppins-Bold.ttf */; };
 		F4E37BD52BCDE48000CB65A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD42BCDE48000CB65A8 /* AppDelegate.swift */; };
 		F4E37BD72BCDE48000CB65A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD62BCDE48000CB65A8 /* SceneDelegate.swift */; };
 		F4E37BD92BCDE48000CB65A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E37BD82BCDE48000CB65A8 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F47D832D2BCE3A4600C2F91E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F4D391182BCE100700FA9B26 /* ZillaSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Regular.ttf"; sourceTree = "<group>"; };
+		F4D3911A2BCE150D00FA9B26 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F4D3911C2BCE159300FA9B26 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		F4E37BD12BCDE48000CB65A8 /* StarbucksLoginSizeClassesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLoginSizeClassesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E37BD42BCDE48000CB65A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E37BD62BCDE48000CB65A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4D391172BCE0FA600FA9B26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F47D832D2BCE3A4600C2F91E /* Poppins-Medium.ttf */,
+				F4D391182BCE100700FA9B26 /* ZillaSlab-Regular.ttf */,
+				F4D3911A2BCE150D00FA9B26 /* Poppins-Regular.ttf */,
+				F4D3911C2BCE159300FA9B26 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F4E37BC82BCDE48000CB65A8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +124,7 @@
 				F4E37BDA2BCDE48000CB65A8 /* Main.storyboard */,
 				F4E37BDD2BCDE48200CB65A8 /* Assets.xcassets */,
 				F4E37BDF2BCDE48200CB65A8 /* LaunchScreen.storyboard */,
+				F4D391172BCE0FA600FA9B26 /* Fonts */,
 				F4E37BE22BCDE48200CB65A8 /* Info.plist */,
 			);
 			path = StarbucksLoginSizeClassesExample;
@@ -232,8 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E37BDE2BCDE48200CB65A8 /* Assets.xcassets in Resources */,
+				F47D832E2BCE3A4600C2F91E /* Poppins-Medium.ttf in Resources */,
+				F4D3911D2BCE159300FA9B26 /* Poppins-Bold.ttf in Resources */,
 				F4E37BE12BCDE48200CB65A8 /* Base in Resources */,
+				F4D391192BCE100700FA9B26 /* ZillaSlab-Regular.ttf in Resources */,
 				F4E37BDC2BCDE48000CB65A8 /* Base in Resources */,
+				F4D3911B2BCE150D00FA9B26 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
